@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <style type="text/css">
-    .container {
-        display:flex;
-        background-color: #2E1408;
-        height:100vh;
-        align-items:center;
-        justify-content:center;
-    }
     .text {
         color:#FFFFFF;
         font-size:3rem;
     }
+    #banner {
+    position: relative;
+    background-image: url(images/overlay.png), url(images/overlay.png), url(../../images/banner.jpg);
+    background-position: top left, top left, center center;
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    z-index: 1;
 </style>
 
 <head>
@@ -24,7 +24,7 @@
 <body>
 
     <h1>Syifa Afra's Recipe Book</h1>
-    <div class="container">
+    <section id ="container">
         <div class="text">
         <h2>Mayonnaise Shrimp Recipe</h2>
         <p>Easy recipe but very delicious like the one in the restaurant!>

@@ -10,6 +10,10 @@
         font-family:"Quicksand";
         text-align: center;
     }
+    .center{
+        margin-left: auto;
+    margin-right: auto;
+    }
     .image{
         display: block;
     margin-left: auto;
@@ -22,6 +26,15 @@
         align-items:center;
         justify-content:center;
     }
+    .text{
+        font-family:"Quicksand";
+        font-size:1rem;
+    }
+    .subtitle{
+        font-family:"AmaticSC";
+         font-size:2rem;
+    }
+    
     @media only screen and (max-width: 768px) {
      [class*="container"] {
      height:40vh;
@@ -47,7 +60,7 @@
             </div>
         
     </div>
-    <div class ="intro">
+    <div class ="text">
     <p>Easy recipe but very delicious like the one in the restaurant! </p>
     <ul>
         <li>Time: 30 minutes</li>
@@ -55,14 +68,17 @@
     </ul>
        </div>
 
-    <table>
+    <table class="center">
         <thead>
             <tr>
+                <div class="subtitle">
                 <th>Ingredients</th>
                 <th>Quantity</th>
+                   </div>
             </tr>
         </thead>
         <tbody>
+            <div class="text">
             <tr>
                 <td>Prawn</td>
                 <td>300 gr</td>
@@ -119,6 +135,7 @@
                 <td>Green onions, corn vermicelli, black sesame seeds (optional)</td>
                 <td>Right amount</td>
             </tr>
+        </div>
         </tbody>
     </table>
 

@@ -5,7 +5,7 @@ session_start();
 include 'koneksi.php';
 
 $nama = $_POST['nama'];
-$pesan = $_POST['pesan'];
+$komentar = $_POST['komentar'];
 
 $insert = pg_query($conn, "INSERT INTO comment_table (id, tanggal, nama, komentar) VALUES(NULL, NOW(), '{$nama}', '{$komentar}')");
 

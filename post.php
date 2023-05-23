@@ -12,3 +12,4 @@ $insert = pg_query($conn, "INSERT INTO comment_table (id, tanggal, nama, komenta
 if ($insert) {
 	echo "Komentar Anda sudah disimpan.";
 }
+?>

@@ -8,5 +8,5 @@ CREATE TABLE `comment_table` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
-INSERT INTO `comment_table` (`id`, `tanggal`, `nama`, `pesan`) VALUES
-(1, '2017-02-10 08:57:42', 'test', 'Hi, nice recipe. Keep posting!');
+INSERT INTO `comment_table` (`id`, `tanggal`, `nama`, `komentar`) VALUES
+(1, '2023-05-23 21:07:42', 'test', 'This recipe is very delicious!');

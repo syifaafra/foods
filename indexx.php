@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+
+session_start();
+
+include 'koneksi.php';
+
+$komentar = pg_query($conn, "SELECT * FROM comment_table ORDER BY tanggal");
+
+?><!DOCTYPE html>
 <html>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Project: Recipe book</title>
